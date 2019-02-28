@@ -1,0 +1,156 @@
+body{
+	background-color: #F8F9FA;
+}
+
+.h1top{
+	font-size: 150%;
+}
+
+.carousel-inner{
+	object-fit: cover;
+	max-height: 300px;
+}
+
+.inline-text{
+    white-space: nowrap;
+    padding:0;
+	max-width: unset;
+}
+
+.bordercard > p{
+	padding: 3px;
+	border: 1px solid #999999;
+	border-radius: 8px;
+	background-color: #999999;
+	margin: auto;
+	width: 75%;
+	margin-top: 2%;
+	color: white;
+}
+
+.bordercard{
+	top: 75%;
+  	-ms-transform: translateY(-75%);
+  	transform: translateY(-75%);
+  	transition: .5s ease;
+}
+
+.dead-border{
+	margin-bottom: 35%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 30%;
+	padding-bottom: 30%;
+	border: 1px solid grey;
+	border-radius: 15px;
+	opacity: 0.8;
+	background-color: grey;
+}
+
+.dead{
+	position: absolute;
+	font-size: 300%;
+}
+
+
+.gold{
+	color: #FFD700;
+}
+
+.reward-container{
+	position: absolute;
+	z-index:1;
+}
+
+.desc-container{
+	position: absolute;
+	width: 100%;
+	bottom: -10px;
+}
+
+.card{
+	width: 300px;
+	height: 375px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.img-wrapper{
+	filter: brightness(75%);
+	transition: .5s ease;
+}
+
+.flexGrow4{
+	flex-grow: 0.5;
+}
+
+.imgRes{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.card-small{
+	height: 100px;
+	border: none;
+	background-color: #F8F9FA;
+}
+
+.card-fullWidth{
+	width: 80%;
+	height: 100%;
+}
+
+.card-small-elements{
+	position: absolute;
+	font-size: 90%;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.gollum-quote{
+	font-size: 120%;
+}
+
+#footer{
+	background-color: #333333;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.white{
+	color: white;
+}
+
+.h1section{
+	margin-left: 5%;
+	font-size: 160%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.h1section > span{
+	font-size: 50%;
+}
+
+.gollumIsTheAuthor{
+	white-space: nowrap;
+	margin-left: 80%;
+	color: #e5e5e5;
+}
+
+
+.img-wrapper:hover{
+	filter: brightness(100%);
+}
+
+.img-wrapper:hover > .bordercard{
+	top: 0%;
+  	-ms-transform: translateY(0%);
+  	transform: translateY(0%);
+}
