@@ -30,6 +30,15 @@ body {
 	vertical-align: bottom;
 }
 
+.tfont{
+	font-family: "title";
+}
+
+.tfont-small{
+	font-family: "title";
+	font-size: 75%;
+}
+
 .active > .nav-link{
 	border-bottom: 5px solid white;
 }
